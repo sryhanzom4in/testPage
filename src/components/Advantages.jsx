@@ -5,7 +5,9 @@ export default function Advantages() {
         <>
             <div className="font-[Unbounded] text-[32px] font-normal">
                 <div className="h-[140px] text-center font-[Unbounded] text-[32px] font-normal">
-                    Мы помогаем собственникам, первым лицам компаний <br /> и их командам пройти через изменения и неопределённость <br /> к новым целям.
+                    Мы помогаем собственникам, первым лицам компаний <br /> и их
+                    командам пройти через изменения и неопределённость <br /> к
+                    новым целям.
                 </div>
             </div>
             <div>
@@ -19,7 +21,9 @@ export default function Advantages() {
                 </div>
                 <div>
                     <img src="" alt="" />
-                    <div>получить тот результат, ради которого начали перемены</div>
+                    <div>
+                        получить тот результат, ради которого начали перемены
+                    </div>
                 </div>
             </div>
         </>

@@ -1,16 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
 @import "tailwindcss";
-
-#root {
-    width: 80%;
+:root {
+    --color-red-500: #000;
 }
 /* Reset and base styles  */
-* {
-    padding: 0px;
-    margin: 0px;
-    border: none;
-}
-
 *,
 *::before,
 *::after {
@@ -97,4 +90,3 @@ legend {
 input[type="file"] {
     max-width: 100%;
 }
-
