@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import ConsultBanner from "./components/ConsultBanner";
 import Advantages from "./components/Advantages";
+import Stats from "./components/Stats";
 function App() {
     return (
         <>
@@ -12,6 +13,7 @@ function App() {
                     <div className="w-7xl">
                         <ConsultBanner />
                         <Advantages />
+                        <Stats />
                     </div>
                 </div>
             </div>

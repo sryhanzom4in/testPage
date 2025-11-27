@@ -10,7 +10,7 @@ export default function Advantages() {
                     Мы помогаем собственникам, первым лицам компаний <br /> и их командам пройти через изменения и неопределённость <br /> к новым целям.
                 </div>
             </div>
-            <div className="flex items-center ">
+            <div className="flex items-center gap-10">
                 <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px]">
                     <img src={compassIcon} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%]">пройти через неопределённость</div>
@@ -19,7 +19,7 @@ export default function Advantages() {
                     <img src={usersIcon} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%]">сохранить себя и лучших людей в команде</div>
                 </div>
-                {/* <div className="w-0 h-[110px] border border-dashed border-[#2563EB]"></div>  */}
+                {/* <div className="w-0 h-[110px] overflow-hidden border border-dashed border-[#2563EB]"></div> */}
                 <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px]">
                     <img src={trophyIcon} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%] h-[60px]">
