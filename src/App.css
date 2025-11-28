@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
 @import "tailwindcss";
-:root {
-    --color-red-500: #000;
-}
 /* Reset and base styles  */
 html {
     background-color: #f2f6ff;

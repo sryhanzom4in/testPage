@@ -6,6 +6,8 @@ import Advantages from "./components/Advantages";
 import Stats from "./components/Stats";
 import Trust from "./components/Trust/Trust";
 import Recommendation from "./components/Recommendation/Recommendation";
+import WhatsInside from "./components/WhatsInside/WhatsInside";
+import Quote from "./components/Quote/Quote";
 function App() {
     return (
         <>
@@ -18,6 +20,8 @@ function App() {
                         <Stats />
                         <Trust />
                         <Recommendation />
+                        <WhatsInside />
+                        <Quote />
                     </div>
                 </div>
             </div>

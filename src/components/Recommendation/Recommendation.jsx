@@ -5,7 +5,7 @@ import thirdImage from "./assets/thirdImage.png";
 import fourthImage from "./assets/fourthImage.jpg";
 export default function Recommendation() {
     return (
-        <div className="w-full flex flex-col items-center font-[Unbounded] text-center gap-5">
+        <div className="w-full flex flex-col items-center font-[Unbounded] text-center gap-5 mb-[100px]">
             <div className="font-bold text-[36px]">
                 Образовательная программа <br />
                 “Путь через перемены”
