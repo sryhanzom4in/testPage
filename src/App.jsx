@@ -5,6 +5,7 @@ import ConsultBanner from "./components/ConsultBanner";
 import Advantages from "./components/Advantages";
 import Stats from "./components/Stats";
 import Trust from "./components/Trust/Trust";
+import Recommendation from "./components/Recommendation/Recommendation";
 function App() {
     return (
         <>
@@ -16,6 +17,7 @@ function App() {
                         <Advantages />
                         <Stats />
                         <Trust />
+                        <Recommendation />
                     </div>
                 </div>
             </div>
