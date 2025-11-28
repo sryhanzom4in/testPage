@@ -20,7 +20,13 @@ function App() {
                         <Stats />
                         <Trust />
                         <Recommendation />
-                        <WhatsInside />
+                    </div>
+                </div>
+            </div>
+            <WhatsInside />
+            <div className="w-screen h-full">
+                <div className="flex justify-center">
+                    <div className="w-7xl">
                         <Quote />
                     </div>
                 </div>

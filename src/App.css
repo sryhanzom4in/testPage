@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
 @import "tailwindcss";
 /* Reset and base styles  */
+#root {
+    width: 100vw;
+}
 html {
     background-color: #f2f6ff;
     overflow-x: hidden;
@@ -34,21 +37,6 @@ h6,
 p {
     font-size: inherit;
     font-weight: inherit;
-}
-
-ul,
-ul li {
-    list-style: none;
-}
-
-img {
-    vertical-align: top;
-}
-
-img,
-svg {
-    max-width: 100%;
-    height: auto;
 }
 
 address {
