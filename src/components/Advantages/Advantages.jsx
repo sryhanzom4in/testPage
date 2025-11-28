@@ -1,8 +1,8 @@
 import React from "react";
-import compassIcon from "../assets/compassIcon.svg";
-import usersIcon from "../assets/usersIcon.svg";
-import trophyIcon from "../assets/trophyIcon.svg";
-import breakingLine from "../assets/breakingLine.svg";
+import compassIcon from "./assets/compassIcon.svg";
+import usersIcon from "./assets/usersIcon.svg";
+import trophyIcon from "./assets/trophyIcon.svg";
+// import breakingLine from "././assets/breakingLine.svg";
 export default function Advantages() {
     return (
         <>
@@ -20,7 +20,6 @@ export default function Advantages() {
                     <img src={usersIcon} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%]">сохранить себя и лучших людей в команде</div>
                 </div>
-                {/* <div className="w-0 h-[110px] border border-dashed border-[#2563EB]"></div> */}
                 <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px]">
                     <img src={trophyIcon} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%] h-[60px]">

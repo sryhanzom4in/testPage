@@ -1,6 +1,5 @@
 import React from "react";
-import { Fragment } from "react";
-import phone from "../assets/phone.png";
+import phone from "./assets/phone.png";
 export default function ConsultBanner() {
     return (
         <>

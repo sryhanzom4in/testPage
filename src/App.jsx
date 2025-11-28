@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import ConsultBanner from "./components/ConsultBanner";
-import Advantages from "./components/Advantages";
+import ConsultBanner from "./components/ConsultBanner/ConsultBanner.jsx";
+import Advantages from "./components/Advantages/Advantages.jsx";
 import Stats from "./components/Stats";
 import Trust from "./components/Trust/Trust";
 import Recommendation from "./components/Recommendation/Recommendation";
