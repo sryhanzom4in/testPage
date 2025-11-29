@@ -8,6 +8,7 @@ import Trust from "./components/Trust/Trust";
 import Recommendation from "./components/Recommendation/Recommendation";
 import WhatsInside from "./components/WhatsInside/WhatsInside";
 import Quote from "./components/Quote/Quote";
+import Track from "./components/Track.jsx";
 function App() {
     return (
         <>
@@ -28,6 +29,7 @@ function App() {
                 <div className="flex justify-center">
                     <div className="w-7xl">
                         <Quote />
+                        <Track />
                     </div>
                 </div>
             </div>
