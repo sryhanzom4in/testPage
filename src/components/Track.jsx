@@ -5,7 +5,7 @@ export default function Track() {
         <div className="font-[Unbounded] mt-40 bg-[#FFFFFF] rounded-3xl flex justify-center items-center h-auto">
             <div className=" w-[90%] h-[90%] mt-15 mb-15">
                 <div className="text-4xl font-bold">
-                    Вы проходите путь через перемены за руку с <span className="text-[#2563EB]">экспертами-практиками</span>
+                    Вы проходите путь через перемены за руку <br />с <span className="text-[#2563EB]">экспертами-практиками</span>
                 </div>
                 <div className="mt-10">
                     <ul className="flex flex-col">

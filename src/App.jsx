@@ -9,6 +9,7 @@ import Recommendation from "./components/Recommendation/Recommendation";
 import WhatsInside from "./components/WhatsInside/WhatsInside";
 import Quote from "./components/Quote/Quote";
 import Track from "./components/Track.jsx";
+import Problems from "./components/Problems/Problems.jsx";
 function App() {
     return (
         <>
@@ -30,6 +31,7 @@ function App() {
                     <div className="w-7xl">
                         <Quote />
                         <Track />
+                        <Problems />
                     </div>
                 </div>
             </div>
