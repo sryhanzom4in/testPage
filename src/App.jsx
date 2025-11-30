@@ -11,6 +11,7 @@ import QuoteChuhutina from "./components/QuoteChuhutina/QuoteChuhutina.jsx";
 import Track from "./components/Track.jsx";
 import Problems from "./components/Problems/Problems.jsx";
 import QuoteDmitrieva from "./components/QuoteDmitrieva/QuoteDmitrieva.jsx";
+import Examples from "./components/Examples.jsx";
 function App() {
     return (
         <>
@@ -34,6 +35,7 @@ function App() {
                         <Track />
                         <Problems />
                         <QuoteDmitrieva />
+                        <Examples />
                     </div>
                 </div>
             </div>
