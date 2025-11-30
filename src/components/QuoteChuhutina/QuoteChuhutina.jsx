@@ -1,7 +1,7 @@
 import React from "react";
 import photo from "./assets/photo.png";
 
-export default function Quote() {
+export default function QuoteChuhutina() {
     return (
         <div className="mt-[60px] min-h-[360px] bg-[#2563EB] rounded-3xl flex text-white font-[Unbounded]">
             <div className="w-[25%] relative">

@@ -7,9 +7,10 @@ import Stats from "./components/Stats";
 import Trust from "./components/Trust/Trust";
 import Recommendation from "./components/Recommendation/Recommendation";
 import WhatsInside from "./components/WhatsInside/WhatsInside";
-import Quote from "./components/Quote/Quote";
+import QuoteChuhutina from "./components/QuoteChuhutina/QuoteChuhutina.jsx";
 import Track from "./components/Track.jsx";
 import Problems from "./components/Problems/Problems.jsx";
+import QuoteDmitrieva from "./components/QuoteDmitrieva/QuoteDmitrieva.jsx";
 function App() {
     return (
         <>
@@ -29,9 +30,10 @@ function App() {
             <div className="w-screen h-full">
                 <div className="flex justify-center">
                     <div className="w-7xl">
-                        <Quote />
+                        <QuoteChuhutina />
                         <Track />
                         <Problems />
+                        <QuoteDmitrieva />
                     </div>
                 </div>
             </div>
