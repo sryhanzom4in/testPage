@@ -14,6 +14,9 @@ import QuoteDmitrieva from "./components/QuoteDmitrieva/QuoteDmitrieva.jsx";
 import Examples from "./components/Examples.jsx";
 import WhoComes from "./components/WhoComes.jsx";
 import Reviews from "./components/Reviews/Reviews.jsx";
+import FormatsInteractions from "./components/FormatsInteractions.jsx";
+import Contact from "./components/Contact/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 function App() {
     return (
         <>
@@ -43,6 +46,9 @@ function App() {
             </div>
             <WhoComes />
             <Reviews />
+            <FormatsInteractions />
+            <Contact />
+            <Footer />
         </>
     );
 }

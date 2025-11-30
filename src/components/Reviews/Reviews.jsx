@@ -60,7 +60,6 @@ export default function Reviews() {
         slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: false,
-        // autoplaySpeed: 1000,
         prevArrow: <SampleNextArrow />,
         nextArrow: <SamplePrevArrow />,
         arrows: true,

@@ -6,7 +6,7 @@ import trophyIcon from "./assets/trophyIcon.svg";
 export default function Advantages() {
     return (
         <>
-            <div className="font-[Unbounded] text-[32px] font-normal">
+            <div className="font-[Unbounded] text-[32px] font-normal" id="advantages">
                 <div className="h-[140px] text-center font-[Unbounded] text-[32px] font-normal">
                     Мы помогаем собственникам, первым лицам компаний <br /> и их командам пройти через изменения и неопределённость <br /> к новым целям.
                 </div>
