@@ -4,6 +4,16 @@
 #root {
     width: 100vw;
 }
+.beforeafter_image::after {
+    content: url(./assets/breakingLine.svg);
+    position: absolute;
+    left: 0;
+}
+.beforeafter_image::before {
+    content: url(./assets/breakingLine.svg);
+    position: absolute;
+    right: 0;
+}
 html {
     background-color: #f2f6ff;
     overflow-x: hidden;

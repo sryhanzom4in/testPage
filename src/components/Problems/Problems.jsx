@@ -2,7 +2,6 @@ import React from "react";
 import arrow from "./assets/arrow.svg";
 import chartBar from "./assets/chartBar.svg";
 import timer from "./assets/timer.svg";
-// import breakingLine from "././assets/breakingLine.svg";
 export default function Problems() {
     return (
         <>
@@ -16,9 +15,9 @@ export default function Problems() {
                     <img src={arrow} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%]">Ошибки в оценке рисков и потенциала команды</div>
                 </div>
-                <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px]">
+                <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px] beforeafter_image relative">
                     <img src={chartBar} alt="" />
-                    <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%]">Неправильно установленные KPI и критерии успеха</div>
+                    <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%] ">Неправильно установленные KPI и критерии успеха</div>
                 </div>
                 <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px]">
                     <img src={timer} alt="" />

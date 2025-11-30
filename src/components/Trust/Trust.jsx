@@ -44,7 +44,7 @@ export default function Trust() {
                     <img src={checkboxIcon} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%]">Более 6000 диалоговых командных сессий и фокус-групп.</div>
                 </div>
-                <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px]">
+                <div className="flex flex-col gap-0.5 justify-center items-center w-[400px] h-[200px] beforeafter_image relative">
                     <img src={checkboxIcon} alt="" />
                     <div className="font-[Unbounded] text-[20px] font-normal text-center w-[80%]">Более 300 внутренних лидерских конференций и сообществ</div>
                 </div>
