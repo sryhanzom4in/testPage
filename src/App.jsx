@@ -13,6 +13,7 @@ import Problems from "./components/Problems/Problems.jsx";
 import QuoteDmitrieva from "./components/QuoteDmitrieva/QuoteDmitrieva.jsx";
 import Examples from "./components/Examples.jsx";
 import WhoComes from "./components/WhoComes.jsx";
+import Reviews from "./components/Reviews/Reviews.jsx";
 function App() {
     return (
         <>
@@ -41,6 +42,7 @@ function App() {
                 </div>
             </div>
             <WhoComes />
+            <Reviews />
         </>
     );
 }

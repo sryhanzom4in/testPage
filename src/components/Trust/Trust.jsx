@@ -22,6 +22,7 @@ export default function Trust() {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
+        arrows: false,
     };
     const logosArray = [dns, doubleGis, wolkswagen, megaphone, yandex, kamaz, moscow, sber, mailru, rostelecom];
     return (
