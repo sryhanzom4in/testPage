@@ -12,6 +12,7 @@ import Track from "./components/Track.jsx";
 import Problems from "./components/Problems/Problems.jsx";
 import QuoteDmitrieva from "./components/QuoteDmitrieva/QuoteDmitrieva.jsx";
 import Examples from "./components/Examples.jsx";
+import WhoComes from "./components/WhoComes.jsx";
 function App() {
     return (
         <>
@@ -39,6 +40,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            <WhoComes />
         </>
     );
 }

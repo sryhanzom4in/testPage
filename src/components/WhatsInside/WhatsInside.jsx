@@ -11,7 +11,7 @@ import phone from "./assets/phone.png";
 import highfive from "./assets/highfive.png";
 export default function WhatsInside() {
     return (
-        <div className="bg-[#2563EB] w-full flex flex-col items-center font-[Unbounded] h-[1400px] text-white">
+        <div className="bg-[#2563EB] w-full flex flex-col items-center font-[Unbounded] text-white pb-24 h-auto">
             <div className="text-[36px] font-bold text-center h-[105px] flex justify-center items-center">Что внутри технологии?</div>
             <div className="w-full max-w-7xl h-[1243px] flex justify-start flex-wrap flex-row gap-7">
                 <div className="w-[47%] h-[70%] bg-[#2f6ced] rounded-3xl border border-[#447aec] shadow-2xl shadow-[#2054c5]">
